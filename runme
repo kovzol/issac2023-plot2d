@@ -1,0 +1,6 @@
+#!/bin/sh
+T=plot2d
+echo q | pdflatex $T
+biber $T
+echo q | pdflatex $T
+echo q | pdflatex $T
